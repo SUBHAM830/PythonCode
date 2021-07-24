@@ -1,0 +1,46 @@
+print("        Welcome in My Calculator    ")
+print("          Enter 1 for Addition ")
+print("          Enter 2 for Subtraction ")
+print("          Enter 3 for Multiplication ")
+print("          Enter 4 for Division ")
+print("        Enter your choice : ")
+choice=int(input())
+if choice==1:
+    print("Enter your first number :")
+    num1=int(input())
+    print("Enter your Second number :")
+    num2=int(input())
+    if num1==45 and num2==3:
+        print("Your Sum : ","99")
+    elif num1==3 and num2==45:
+        print("Your result : ","67")
+    else:
+        print("Your result : ",num1+num2)
+elif choice==2:
+    print("Enter your first number :")
+    num1=int(input())
+    print("Enter your Second number :")
+    num2=int(input())
+    print("Your result : ",num1-num2)
+elif choice==3:
+    print("Enter your first number :")
+    num1=int(input())
+    print("Enter your Second number :")
+    num2=int(input())
+    if num1==56 and num2==9:
+        print("Your result : ","45")
+    elif num1==9 and num2==56:
+        print("Your result : ", "45")
+    else:
+        print("Your result : ", num1*num2)
+elif choice==4:
+    print("Enter your first number :")
+    num1=int(input())
+    print("Enter your Second number :")
+    num2=int(input())
+    if num1==56 and num2==6:
+        print("Your result : ","4")
+    else:
+        print("your result : ",num1/num2)
+else:
+    print("Invalid Choice ")
